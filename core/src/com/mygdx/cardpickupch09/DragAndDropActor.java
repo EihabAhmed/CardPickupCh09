@@ -62,7 +62,7 @@ public class DragAndDropActor extends BaseActor {
                         // keep track of distance to closest object
                         float closestDistance = Float.MAX_VALUE;
 
-                        for (BaseActor actor : BaseActor.getList(self.getStage(), "com.mygdx.jigsawpuzzlech09.DropTargetActor")) {
+                        for (BaseActor actor : BaseActor.getList(self.getStage(), "com.mygdx.cardpickupch09.DropTargetActor")) {
                             DropTargetActor target = (DropTargetActor) actor;
 
                             if (target.isTargetable() && self.overlaps(target)) {
